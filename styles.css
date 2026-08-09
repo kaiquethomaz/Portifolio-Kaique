@@ -670,6 +670,25 @@ main,
   border: 1px solid var(--border);
   border-radius: 6px;
 }
+.project-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  margin-top: 18px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: var(--accent-2);
+  transition: gap 0.25s var(--ease), color 0.25s var(--ease);
+}
+.project-link svg {
+  width: 15px;
+  height: 15px;
+  fill: currentColor;
+}
+.project-link:hover {
+  gap: 10px;
+  color: #93c5fd;
+}
 
 /* ---------------------------------------------------------------
    Formação
