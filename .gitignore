@@ -1,0 +1,10 @@
+# Backup do design antigo (não vai pro site)
+Portifolio/
+
+# Arquivos de trabalho / originais
+assets/kaique_original.jpg
+assets/LEIA-ME.txt
+
+# Sistema
+.DS_Store
+Thumbs.db
